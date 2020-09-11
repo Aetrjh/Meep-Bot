@@ -26,7 +26,7 @@ class General(commands.Cog):
         while timer > 0:
             timer -= 10
             await asyncio.sleep(10)
-        await ctx.send("Hey, <@{0}>, remember to: {1}".format(119218553437159425, "reminder"))
+        await ctx.send("Hey, <@{0}>, remember to: {1}".format(userID, "reminder"))
 
     @commands.command()
     async def remind(self, ctx):
